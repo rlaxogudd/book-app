@@ -1,0 +1,267 @@
+p,
+.title-left{
+  font-family: Dosis;
+  font-weight: bold;
+}
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container-left{
+  background-color: rgba(176, 151, 121, 0.3);
+  height: 500px;
+  width: 200px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.left-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+}
+  
+.book-img{
+  height: 24px;
+  width: 24px;
+  margin-right: 5px;
+}
+
+.user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.user-img{
+  height: 40px;
+  width: 40px;
+  margin-bottom: 0;
+}
+.name{
+  margin-top: 8px;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.menu-1{
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30px;
+  height: 37px;
+
+}
+.menu-1:hover{
+  background-color: rgba(208, 203, 190, 0.8);
+  cursor: pointer;
+}
+.menu-img{
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.social-media{
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  height: 25px;
+  margin-left: 50px;
+}
+.social-media-box{
+  position: relative;
+}
+.social-img{
+  height: 22px;
+  width: 22px;
+  margin-right: 15px;
+}
+.social-img:hover{
+  cursor: pointer;
+}
+
+.social-media-box .tooltip{
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -25px;
+  left: -15px;
+  opacity: 0;
+  transition: 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+  font-family: Arial;
+}
+
+.social-media-box:hover .tooltip{
+  opacity: 1;
+}
+
+.container-right{
+  background-color: rgba(68, 120, 75, 0.3);
+  height: 500px;
+  width: 700px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.search-img{
+  background-color: white;
+  height: 25px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.search-icon{
+  height: 20px;
+  width: 20px;
+  margin-top: 3px;
+}
+
+.search-bar{
+  width: 250px;
+  height: 25px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-style: none;
+  outline-style: none;
+}
+
+.right-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 260px;
+  height: 25px;
+  font-size: 15px;
+  margin-left: 50px;
+}
+
+.shopping-img{
+  height: 15px;
+  width: 15x;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+.bascket,
+.right-menu1{
+  display: flex;
+  flex-direction: row;
+  padding: 2px 8px;
+  align-items: center;
+}
+.right-menu1:hover,
+.bascket:hover{
+  cursor: pointer;
+  background-color: rgba(236, 255, 245, 0.8);
+  border-radius: 12px;
+}
+
+.book-info-box{
+  display: flex;
+  flex-direction: row;
+}
+
+.book-information{
+  height: 400px;
+  width: 360px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.book-name-box{
+  padding-top: 10px;
+}
+.book-name{
+  font-family: Dosis;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.author-name{
+  font-family: Dosis;
+  font-size: 14px;
+  margin-left: 34px;
+}
+
+.types{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 240px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.type{
+  background-color: rgba(236, 255, 245, 0.8);
+  padding: 2px 7px;
+  border-radius: 15px;
+  font-family: Dosis;
+  font-size: 12px;
+}
+
+.info{
+  font-weight: 500;
+  font-size: 14px;
+  width: 300px;
+  margin-left: 30px;
+}
+
+.buy{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  width: 180px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.buy1{
+  padding: 4px 10px;
+  background-color: rgba(236, 255, 245, 0.8);
+  border-radius: 12px;
+}
+
+.buy1-price{
+  font-size: 15px;
+  color: rgb(194, 44, 44);
+}
+
+.buy1:hover,
+.type:hover{
+  cursor: pointer;
+  background-color: rgba(217, 219, 218, 0.8);
+}
+
+.book-picture{
+  margin-top: 60px;
+  height: 350px;
+  width: 250px;
+  object-position: center;
+  object-fit: cover;
+  margin-left: -15px;
+  border-radius: 20px;
+}
